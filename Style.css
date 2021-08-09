@@ -9,9 +9,15 @@ body {
     width: 100%;
 }
 
+    /* HEADER */
+
 header{
     display: flex;
     justify-content: space-between;
+}
+
+#Logo img{
+    display:flex;
 }
 
 header nav{
@@ -30,9 +36,7 @@ header nav a{
     margin-left: 30px;
 }
 
-#Logo img{
-    display:flex;
-}
+    /* BANNIERE */
 
 .banniere {
     height: 450px;
@@ -58,6 +62,8 @@ header nav a{
     color: white;
     font-weight: 400;
 }
+
+    /* MAIN */
 
 section{
     display: flex;
@@ -122,10 +128,11 @@ section{
     font-weight: 300;
 }
 
+    /* FOOTER */
+
 footer{
     background-color: #5b359d;
     height: 220px;
-    max-height: 200px;
     display: flex;
     flex-direction: column;
     align-items: center;
